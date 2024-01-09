@@ -13,6 +13,7 @@
  * 
  * plusMinus has the following paramter(s):
  * ~ int arr[n]: an array of integers
+ * ~ int n: integer size of the array
  */
 package HackerRankJava;
 import java.io.*;
@@ -27,8 +28,8 @@ class Result {
      * its scope as it is a 'void' function.
      */
 
-    public static void plusMinus(List<Integer> arr) {
-        double pos = 0, neg = 0, zed = 0, size = arr.size();
+    public static void plusMinus(List<Integer> arr , int n) {
+        double pos = 0, neg = 0, zed = 0, size = n;
 
         for (Integer element : arr) {
             if (element > 0) {
@@ -58,7 +59,7 @@ public class PlusMinusSolution {
                 .map(Integer::parseInt)
                 .collect(toList());
         
-        Result.plusMinus(arr);
+        Result.plusMinus(arr, n);
 
         bufferedReader.close();
     }
