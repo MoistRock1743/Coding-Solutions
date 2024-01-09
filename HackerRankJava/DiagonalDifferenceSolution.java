@@ -78,5 +78,6 @@ public class DiagonalDifferenceSolution {
  * doing arr[i][n-1-i] which will obtain the opposite column of that row. For example,
  * arr[1][1] in a 5x5 matrix will have the opposite of arr[1][5-1-1] = arr[1][3]. This
  * solution is scalable only to the MAX_INTEGER for the sum of each diagonal.
- *  This solution has a time complexity of O(n).
+ *  The solution has a time complexity of O(n).
+ *  The solution has a space complexity of O(1).
  */

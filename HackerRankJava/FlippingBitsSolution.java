@@ -56,5 +56,6 @@ public class FlippingBitsSolution {
  * 0 (false) when there is a match (because exclude this match). If the integer was
  * all 0's, it would just return the same integer. However, since the integer is
  * composed of all 1's (true), it flips 0 (false) -> 1 (true) and 1 (true) -> 0 (false).
- *  This solution has a time complexity of O(1).
+ *  The solution has a time complexity of O(1).
+ *  The solution has a space complexity of O(1).
  */

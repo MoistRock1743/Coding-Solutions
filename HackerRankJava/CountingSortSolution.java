@@ -80,5 +80,6 @@ public class CountingSortSolution {
  * just returns the frequency array, but you can easily print the sorted array by
  * going through this frequency array. However, the website was only asking for the
  * frequency array, so that is all that was printed and returned.
- *  This solution has a time complexity of O(n).
+ *  The solution has a time complexity of O(n).
+ *  The solution has a space complexity of O(1).
  */

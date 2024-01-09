@@ -61,6 +61,7 @@ public class TimeConversionSolution {
  * that indicate what needs to be returned.
  *  These checks include: is the time 12:something? If so, is it in the morning or
  * afternoon? If it is not 12 then is it the morning?
- *  This solution has a time complexity of O(1).
+ *  The solution has a time complexity of O(1).
+ *  The solution has a space complexity of O(1).
  *  Although I believe this solution does sacrifice readability.
  */

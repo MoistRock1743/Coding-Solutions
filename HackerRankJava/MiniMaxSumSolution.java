@@ -80,27 +80,6 @@ public class MiniMaxSumSolution {
  *  These sums are calculated by adding the elements together, however if the one
  * of either the minimum or maximum is the current element, it is put into its
  * respective summation variable and excluded from the other.
- *  The solution's time complexity is O(n + (n-1)).
- * 
- * *Note*: I made this solution to be scalable to larger integer arrays than the
- * given size of five elements. I would also take out the minimum and maximum
- * portion of the code and just sort the array before calculating the summations
- * which would result in the following code:
- * 
- * Collections.sort(arr);
- * if (arr.get(0) == arr.get(arr.size()-1)) {
- *      System.out.println(min*(arr.size()-1) + " " + min*(arr.size()-1));
-        return;
- * }
- * 
- * for (Integer element: arr) {
- *      if(element == arr.get(0)) {
- *          minSum += element;
- *      }
- *      ... etc.
- * }
- * 
- *  This would result in the time complexity of O(n). This author is not completely
- * confident in this time complexity at the moment of writing due to the inclusion
- * of the sorting method from Collections.
+ *  The solution's time complexity is O(n).
+ *  The solution's space complexity is O(1).
  */

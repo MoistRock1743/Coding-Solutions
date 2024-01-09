@@ -79,5 +79,6 @@ public class PlusMinusSolution {
  * to generate the desired solution. After getting these ratios of each type 
  * (positive, negative, zero), then I used the System.out.format method to output 
  * these ratios with the desired 6 decimal places.
- *  The solution has a linear time complexity of O(n).
+ *  The solution has a time complexity of O(n).
+ *  The solution has a space complexity of O(1).
  */

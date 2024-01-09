@@ -95,5 +95,6 @@ public class SparseArraysSolution {
  * structure contains the current string as a key, it increments the count. To put it 
  * into the desired output data value, I used a Collection instance to store just the
  * values of the LinkedHashMap and created a new list of integers off the collection.
- *  This solution has a time complexity of O(m+n).
+ *  The solution has a time complexity of O(m+n).
+ *  The solution has a space complexity of O(m+n).
  */

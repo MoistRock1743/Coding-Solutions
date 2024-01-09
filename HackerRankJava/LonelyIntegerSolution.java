@@ -57,5 +57,6 @@ public class LonelyIntegerSolution {
  *  The only reason I reinstated this solution was due to the fact that it saves
  * memory and space by only using one variable and not sectioning off multiple
  * portions of memory for a Stack.
- *  This solution has a time complexity of O(n).
+ *  The solution has a time complexity of O(n).
+ *  The solution has a space complexity of O(1).
  */
