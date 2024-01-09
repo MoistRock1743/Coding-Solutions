@@ -16,10 +16,9 @@ package HackerRankJava;
 import java.io.*;
 import java.util.*;
 import java.util.stream.*;
-import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-class Result {
+class SAResult {
     /*
      * 'matchingStrings' function accepts following parameters:
      *      1. STRING_ARRAY strings
@@ -53,7 +52,6 @@ class Result {
 public class SparseArraysSolution {
     public static void main(String[] args) throws IOException  {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
         int stringsCount = Integer.parseInt(bufferedReader.readLine().trim());
 
@@ -79,16 +77,11 @@ public class SparseArraysSolution {
             })
             .collect(toList());
         
-        List<Integer> res = Result.matchingStrings(strings, queries);
+        List<Integer> res = SAResult.matchingStrings(strings, queries);
 
-        bufferedWriter.write(
-            res.stream().map(Object::toString)
-                .collect(joining("\n")) 
-                + "\n"
-        );
+        System.out.println(res);
 
         bufferedReader.close();
-        bufferedWriter.close();
     }
 }
 

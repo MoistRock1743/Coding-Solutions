@@ -14,7 +14,7 @@
 package HackerRankJava;
 import java.io.*;
 
-class Result {
+class TCResult {
     /*
      * 'timeConversion' function accepts STRING s as parameter.
      * The function is expected to return a STRING.
@@ -43,17 +43,14 @@ class Result {
 public class TimeConversionSolution {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
-
+        
         String s = bufferedReader.readLine();
 
-        String result = Result.timeConversion(s);
-
-        bufferedWriter.write(result);
-        bufferedWriter.newLine();
+        String result = TCResult.timeConversion(s);
+        
+        System.out.println(result);
 
         bufferedReader.close();
-        bufferedWriter.close();
     }
 }
 

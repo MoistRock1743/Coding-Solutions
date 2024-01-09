@@ -21,7 +21,7 @@ import java.util.*;
 import java.util.stream.*;
 import static java.util.stream.Collectors.toList;
 
-class Result {
+class PMResult {
     /*
      * The 'plusMinus' function below accepts INTEGER_ARRAY arr
      * as parameter. The function must produce the output within
@@ -59,7 +59,7 @@ public class PlusMinusSolution {
                 .map(Integer::parseInt)
                 .collect(toList());
         
-        Result.plusMinus(arr, n);
+        PMResult.plusMinus(arr, n);
 
         bufferedReader.close();
     }

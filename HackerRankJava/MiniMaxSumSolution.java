@@ -17,7 +17,7 @@ import java.util.*;
 import java.util.stream.*;
 import static java.util.stream.Collectors.toList;
 
-class Result {
+class MMSResult {
     /*
      * 'miniMaxSum' function accepts INTEGER_ARRAY arr 
      * as parameter. The functions must produce the output within
@@ -66,7 +66,7 @@ public class MiniMaxSumSolution {
                 .map(Integer::parseInt)
                 .collect(toList());
 
-        Result.miniMaxSum(arr);
+        MMSResult.miniMaxSum(arr);
     }
 }
 
