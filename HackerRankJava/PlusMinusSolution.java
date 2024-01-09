@@ -14,9 +14,8 @@
  * plusMinus has the following paramter(s):
  * ~ int arr[n]: an array of integers
  */
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+package HackerRankJava;
+import java.io.*;
 import java.util.*;
 import java.util.stream.*;
 import static java.util.stream.Collectors.toList;
