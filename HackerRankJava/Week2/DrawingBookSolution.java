@@ -88,6 +88,8 @@ public class DrawingBookSolution {
 
         int result = DBResult.pageCount(n, p);
 
+        System.out.println(result);
+        
         bufferedReader.close();
     }
 }
