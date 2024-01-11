@@ -11,7 +11,7 @@
  * flipping bits has the following parameter(s):
  * ~ int n: an integer
  */
-package HackerRankJava;
+package HackerRankJava.Week1;
 import java.io.*;
 import java.util.stream.*;
 

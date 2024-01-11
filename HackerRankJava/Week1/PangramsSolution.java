@@ -10,7 +10,7 @@
  * pangrams has the following parameter:
  * ~ string s: a string to test
  */
-package HackerRankJava;
+package HackerRankJava.Week1;
 import java.io.*;
 import java.util.*;
 

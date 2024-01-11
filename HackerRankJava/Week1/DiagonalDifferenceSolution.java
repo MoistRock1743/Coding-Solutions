@@ -12,7 +12,7 @@
  * diagonalDifference takes the following parameter:
  * ~ int arr[n][m]: an array of integers
  */
-package HackerRankJava;
+package HackerRankJava.Week1;
 import java.io.*;
 import java.util.*;
 import java.util.stream.*;

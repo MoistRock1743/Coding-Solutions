@@ -1,7 +1,7 @@
 /* Given two strings consisting of digits 0 and 1 only, find the XOR of
  * the two strings.
  */
-package HackerRankJava;
+package HackerRankJava.Week1;
 import java.io.*;
 
 class XORSTResult {

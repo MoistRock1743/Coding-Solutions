@@ -11,7 +11,7 @@
  * timeConversion has the following parameter(s):
  * ~ string s: a time in 12 hour format
  */
-package HackerRankJava;
+package HackerRankJava.Week1;
 import java.io.*;
 
 class TCResult {

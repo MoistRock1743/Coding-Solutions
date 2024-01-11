@@ -17,7 +17,7 @@
  * ~ int A[n]: an array of integers
  * ~ int B[n]: an array of integers
  */
-package HackerRankJava;
+package HackerRankJava.Week1;
 import java.io.*;
 import java.util.*;
 import java.util.stream.*;

@@ -15,7 +15,7 @@
  * ~ int arr[n]: an array of integers
  * ~ int n: integer size of the array
  */
-package HackerRankJava;
+package HackerRankJava.Week1;
 import java.io.*;
 import java.util.*;
 import java.util.stream.*;

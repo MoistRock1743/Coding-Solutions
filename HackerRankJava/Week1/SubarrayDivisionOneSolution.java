@@ -19,7 +19,7 @@
  * ~ int d: the other's birth day
  * ~ int m: the other's birth month
  */
-package HackerRankJava;
+package HackerRankJava.Week1;
 import java.io.*;
 import java.util.*;
 import java.util.stream.*;
