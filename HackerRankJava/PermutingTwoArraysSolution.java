@@ -94,5 +94,21 @@ public class PermutingTwoArraysSolution {
 }
 
 /*****************************Solution Explained***********************************
- *  In this solution, I fi
+ *  In this solution, I first sorted the given lists and reversed B. Then I applied
+ * a Queue structure to test the compatibility of the two lists for the problem. By
+ * first initializing the Queue with the values of A from least to greatest, I then
+ * used a for-loop to go through each integer of B starting with the greatest 
+ * integer. We then peek at the top of the queue to see if that element in addition
+ * to the current element of B are capable of satisfying the condition. If so, then
+ * we remove that element from the queue. 
+ *  The reasoning behind this is that we use up the smallest values of A and largest 
+ * values of B simultaneously to figure out if they satisfy their solutions. That is 
+ * the main reason for sorting these lists. If they remained unsorted,  we could run
+ * into an issue where a middle-of-the-line integer could be used with a maximum
+ * integer of the other list, leaving the smallest integer of that middling list 
+ * without a partner integer to satisfy the condition. Then by using a queue, if no
+ * integer gets a pairing to help satisfy the condition (the queue is not empty),
+ * then the conditions are not met and we return NO.
+ *  The solution has a time complexity of O(nlogn). *Due to .sort()*
+ *  The solution has a space complexity of O(n).
  */
