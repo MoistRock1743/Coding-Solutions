@@ -33,7 +33,7 @@ class MMResult {
 
         for (int i = 0; i < arr.size() - (k - 1); i++) {
             int temp = (arr.get(i+k-1) - arr.get(i));
-            
+
             if (unfairness > temp) {
                 unfairness = temp;
             }
@@ -69,3 +69,14 @@ public class MaxMinSolution {
         bufferedReader.close();
     }
 }
+
+/*****************************Solution Explained***********************************
+ *  In this solution, I first sorted the array. Although this might complicate the 
+ * time complexity to O(nlogn) in total, I found it to just be the easier way to 
+ * tackle this problem. After sorting the array, I go through each subarray of the
+ * desired size of k in the array and get the first and last element, subtract them
+ * and compare them to the overall unfairness variable. I do not store the subarrays
+ * in another memory, rather I just work within the given array to save space.
+ *  The solution has a time complexity of O(nlogn).
+ *  The solution has a space complexity of O(1).
+ */
