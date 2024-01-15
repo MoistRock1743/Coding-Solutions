@@ -28,7 +28,18 @@ class MMResult {
      */
 
     public static int maxMin(int k, List<Integer> arr) {
+        Collections.sort(arr);
+        int unfairness = Integer.MAX_VALUE;
+
+        for (int i = 0; i < arr.size() - (k - 1); i++) {
+            int temp = (arr.get(i+k-1) - arr.get(i));
+            
+            if (unfairness > temp) {
+                unfairness = temp;
+            }
+        }
         
+        return unfairness;
     }
 }
 
