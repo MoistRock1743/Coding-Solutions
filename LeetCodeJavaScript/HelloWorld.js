@@ -8,7 +8,10 @@ Example:
 */
 function createHelloWorld() {
 
-    return function (...args): string {
+    return function (...args) {
         console.log("Hello World");
     };
 };
+
+const f = createHelloWorld();
+f();
