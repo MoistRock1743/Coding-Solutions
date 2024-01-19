@@ -13,7 +13,7 @@ var createCounter = function(n) {
     console.log("Starting Counter: ");
     return function() {
         console.log(n);
-        n++;
+        ++n;
     };
 };
 
