@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/LeetCodeJavaScript/HelloWorld.js"
+            "program": "${workspaceFolder}/HackerRankJava/DataStructures/Arrays1Solution.java"
         }
     ]
 }

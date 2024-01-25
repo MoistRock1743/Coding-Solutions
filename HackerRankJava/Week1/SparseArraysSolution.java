@@ -27,24 +27,21 @@ class SAResult {
      */
 
     public static List<Integer> matchingStrings(List<String> strings, List<String> queries) {
-        LinkedHashMap<String, Integer> map = new LinkedHashMap<>();
-        String temp ="";
+        List<Integer> ans = new ArrayList<>();
+        int temp = 0;
 
-        for (String query : queries) {
-            temp = query;
-            map.put(temp, 0);
-        }
-
-        for (String str : strings) {
-            temp = str;
-            if (map.containsKey(temp)) {
-                map.put(temp, map.get(temp) + 1);
+        for (int i = 0; i < queries.size(); i++) {
+            ans.add(0);
+            for (int j = 0; j < strings.size(); j++) {
+            
+                if (queries.get(i).equals(strings.get(j))) {
+                    temp = ans.get(i);
+                    temp += 1;
+                    ans.set(i, temp);
+                }
             }
         }
-
-        Collection<Integer> values = map.values();
-        List<Integer> ans = new ArrayList<>(values);
-
+        
         return ans;
     }
 }
